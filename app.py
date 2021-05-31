@@ -34,7 +34,7 @@ def detect(client, file):
 
 @app.route('/detect', methods=['POST'])
 def coba():
-    file = request.files['myFile'].stream.read()
+    file = request.files['image'].stream.read()
     client = setup_boto()
     response = detect(client, file)
     return jsonify(response)
