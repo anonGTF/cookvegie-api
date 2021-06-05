@@ -1,0 +1,71 @@
+[{
+        "id": 1,
+        "judul": "sayur bayam",
+        "bahan": ["bayam", "wortel", "jagung manis", "bawang putih", "bawang merah", "tomat", "air", "garam", "gula"],
+        "kuantitas_bahan": ["dua ikat", "2", "1", "2 siung", "2 butir", "1", "750mL", "1 sdt", "4 sdm"],
+        "prosedur": [
+            "siapkan panci, kemudian tuang air secukupnya dan rebus hingga mendidih",
+            "setelah airnya mendidih, masukkan bawang merah dan bawang putih yang telah diiris tipis-tipis. Masak bumbu hingga tercium aroma harum",
+            "masukkan jagung manis dan wortel ke dalam panic. Rebus hingga matang dan empuk",
+            "masukkan garam sambil diaduk-aduk. Kemudian masukkan daun bayam dan gula pasir. Aduk-aduk hingga tercampur rata",
+            "koreksi rasa sayur bayam. Jika dirasa kurang, tambahkan gula pasir atau garam",
+            "jika sudah mendidih, masukkan tomat yang sudah dipotong-potong, aduk sebentar, kemudian angkat. Sajikan sayur bayam di dalam mangkuk dan nikmati selagi hangat"
+        ]
+    },
+    {
+        "id": 2,
+        "judul": "omelet sayur",
+        "bahan": ["telur ayam", "wortel", "kubis", "daun bawang", "brokoli", "bawang putih", "garam", "merica", "kaldu bubuk"],
+        "kuantitas_bahan": ["3", "1", "1/4", "2", "1/4", "3 siung", "1 sdt", "1/2 sdt", "2 sdt"],
+        "prosedur": [
+            "siapkan wajan, tuang sedikit minyak. Tumis bawang putih geprek hingga harum",
+            "masukkan kubis, daun bawang, dan brokoli. Tambahkan garam, merica, dan kaldu bubuk. Tumis sampai sayuran sedikit layu",
+            "angkat sayuran yang sudah ditumis. Masukkan ke dalam mankuk. Pecahkan tida butir telur. Kocok hingga rata",
+            "panaskan wajan dengan sedikit minyak, masak omelet dengan api kecil dan ditutup. Cek seskali, bila bagian atas omelet sudah mengeras, balik omelet dengan menggunakan spatula",
+            "setelah matang, angkat dan letakkan di atas piring saji"
+        ]
+    },
+    {
+        "id": 3,
+        "judul": "sup ayam",
+        "bahan": ["daging ayam", "daun bawang", "tomat", "kentang", "buncis", "wortel", "kol", "seledri", "jahe", "bawang putih", "bawang merah", "air", "merica", "garam", "penyedap", "minyak", "bawang goreng"],
+        "kuantitas_bahan": ["400gr", "3", "2", "2", "8", "2", "3", "3", "2 cm", "4", "4", "750mL", "1/2 sdt", "1 sdt", "1/2 sdt", "2 sdm", "30 gr"],
+        "prosedur": [
+            "cuci bersih semua bahan terlebih dahulu. Potong-potong sesuai selera",
+            "siapkan panic, panaskan air sampai mendidih. Masukkan ayam dan rebus selam tiga menit. Setelah matang, angkat ayam dan buang airnya, lalu sishkan",
+            "siapkan panci lagi, panaskan air sampai mendidih. Masukkan ayam dan rebus hingga mendidih",
+            "masukkan dua batang daun bawang, dua batang seledri, dan 2 cm jahe geprek",
+            "tumis semua bumbu halus dengan sedikit minyak. Setelah matang, masukkan ke dalam rebusan daging ayam",
+            "secara berturut-turut, masukkan kentang, buncis, wortel, lalu rebus sampai matang",
+            "tambahkan merica, garam, penyedap. Sambil diaduk-aduk, koreksi rasanya. Kemudian masukkan irisan tomat, irisan kol. Setelah matang, angkat dan sajikan"
+        ]
+    },
+    {
+        "id": 4,
+        "judul": "gado-gado",
+        "bahan": ["telur", "wortel", "kentang", "tomat", "kacang panjang", "kecambah", "mentimun", "kubis", "bumbu kacang"],
+        "kuantitas_bahan": ["1", "1", "1", "1", "3", "1", "20gr", "1/4 buah", "1/4 buah", "1 bungkus"],
+        "prosedur": [
+            "tomat dan kentang dipotong sesuai selera",
+            "semua bahan kecuali bumbu kacang dan tomat direbus hingga matang",
+            "encerkan bumbu kacang dengan air panas. Kalu kurang pedas bisa ditambahkan cabai halus",
+            "sajikan bahan rebusan di piring dengan lontong atau nasi. Taungkan bumbu kacang ke atasnya",
+            "tambahkan kerupuk biar semakin nikmat"
+        ]
+    },
+    {
+        "id": 5,
+        "judul": "sandwich telur",
+        "bahan": ["telur", "roti tawar", "selada", "tomat", "keju"],
+        "kuantitas_bahan": ["1", "2", "1", "1/2", "1"],
+        "prosedur": [
+            "panggang roti tawar di atas Teflon. Kalu mau dimakan tanpa dipanggang juga boleh",
+            "Ceplok telur hingga matang atau setengah matang",
+            "kalu mau lebih sehat, telur bisa dimasak dengan metode poaching. Jadi tidak memakai minyak sama sekali melainkan hanyan enggunakan sedikit air",
+            "oles roti dengan sambal atau saus tomat",
+            "letakkan telur yang sudah matang di atasnya",
+            "tambahkan tomat, keju, selada, atau bahan lain sesuai selera",
+            "tutup dengan lembaran roti satunya"
+        ]
+    }
+]
