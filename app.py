@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import boto3
 import os
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -32,11 +33,39 @@ def detect(client, file):
     return results
 
 
+def map_to_indo(response):
+    with open('labels_indo.json') as l_indo:
+        labels_indo = json.load(l_indo)
+    with open('labels_english.json') as l_eng:
+        labels_english = json.load(l_eng)
+
+    dict_labels = dict(zip(labels_english, labels_indo))
+    relevant_labels_indo = [dict_labels.get(label, None) for label in response]
+    relevant_labels_indo = [label.lower() for label in relevant_labels_indo if label is not None]
+    return relevant_labels_indo
+
+
+def get_relevan_recipes(labels_indo):
+    relevant_recipes = []
+    with open('resep.json') as file:
+        recipes = json.load(file)
+
+    for recipe in recipes:
+        count = len(set(recipe['bahan']) & set(labels_indo))
+        if count > 0:
+            recipe['count'] = count
+            relevant_recipes.append(recipe)
+    ordered_relevant_recipes = sorted(relevant_recipes, key=lambda item: item.get("count"), reverse=True)
+    return ordered_relevant_recipes
+
+
 @app.route('/detect', methods=['POST'])
-def coba():
+def detect():
     file = request.files['image'].stream.read()
     client = setup_boto()
-    response = detect(client, file)
+    labels = detect(client, file)
+    labels_indo = map_to_indo(labels)
+    response = get_relevan_recipes(labels_indo)
     return jsonify(response)
 
 
