@@ -60,7 +60,7 @@ def get_relevan_recipes(labels_indo):
 
 
 @app.route('/detect', methods=['POST'])
-def detect():
+def detect_image():
     file = request.files['image'].stream.read()
     client = setup_boto()
     labels = detect(client, file)
