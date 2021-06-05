@@ -66,7 +66,7 @@ def detect_image():
     labels = detect(client, file)
     labels_indo = map_to_indo(labels)
     recipes = get_relevan_recipes(labels_indo)
-    response = dict(labels=labels_indo, recipes=recipes)
+    response = dict(labels=labels_indo, recipes=recipes, raw_labels=labels)
     return jsonify(response)
 
 
