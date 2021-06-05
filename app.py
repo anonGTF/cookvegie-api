@@ -65,7 +65,8 @@ def detect_image():
     client = setup_boto()
     labels = detect(client, file)
     labels_indo = map_to_indo(labels)
-    response = get_relevan_recipes(labels_indo)
+    recipes = get_relevan_recipes(labels_indo)
+    response = dict(labels=labels_indo, recipes=recipes)
     return jsonify(response)
 
 
@@ -76,4 +77,3 @@ def index():
 
 if __name__ == '__main__':
     app.run(threaded=True, port=port)
-
