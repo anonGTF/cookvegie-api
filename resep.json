@@ -4,6 +4,7 @@
         "bahan": ["bayam", "wortel", "jagung manis", "bawang putih", "bawang merah", "tomat", "air", "garam", "gula"],
         "kuantitas_bahan": ["dua ikat", "2", "1", "2 siung", "2 butir", "1", "750mL", "1 sdt", "4 sdm"],
         "thumbnail": "https://res.cloudinary.com/anongtf/image/upload/v1622858496/sayur_bayam_tptzfl.jpg",
+        "kalori": "36kkal",
         "prosedur": [
             "siapkan panci, kemudian tuang air secukupnya dan rebus hingga mendidih",
             "setelah airnya mendidih, masukkan bawang merah dan bawang putih yang telah diiris tipis-tipis. Masak bumbu hingga tercium aroma harum",
@@ -19,6 +20,7 @@
         "bahan": ["telur ayam", "wortel", "kubis", "daun bawang", "brokoli", "bawang putih", "garam", "merica", "kaldu bubuk"],
         "kuantitas_bahan": ["3", "1", "1/4", "2", "1/4", "3 siung", "1 sdt", "1/2 sdt", "2 sdt"],
         "thumbnail": "https://res.cloudinary.com/anongtf/image/upload/v1622858496/omelet_sayur_smrqhv.jpg",
+        "kalori": "98kkal",
         "prosedur": [
             "siapkan wajan, tuang sedikit minyak. Tumis bawang putih geprek hingga harum",
             "masukkan kubis, daun bawang, dan brokoli. Tambahkan garam, merica, dan kaldu bubuk. Tumis sampai sayuran sedikit layu",
@@ -33,6 +35,7 @@
         "bahan": ["daging ayam", "daun bawang", "tomat", "kentang", "buncis", "wortel", "kol", "seledri", "jahe", "bawang putih", "bawang merah", "air", "merica", "garam", "penyedap", "minyak", "bawang goreng"],
         "kuantitas_bahan": ["400gr", "3", "2", "2", "8", "2", "3", "3", "2 cm", "4", "4", "750mL", "1/2 sdt", "1 sdt", "1/2 sdt", "2 sdm", "30 gr"],
         "thumbnail": "https://res.cloudinary.com/anongtf/image/upload/v1622858496/sup_ayam_hr4gwl.jpg",
+        "kalori": "75kkal",
         "prosedur": [
             "cuci bersih semua bahan terlebih dahulu. Potong-potong sesuai selera",
             "siapkan panic, panaskan air sampai mendidih. Masukkan ayam dan rebus selam tiga menit. Setelah matang, angkat ayam dan buang airnya, lalu sishkan",
@@ -49,6 +52,7 @@
         "bahan": ["telur", "wortel", "kentang", "tomat", "kacang panjang", "kecambah", "mentimun", "kubis", "bumbu kacang"],
         "kuantitas_bahan": ["1", "1", "1", "1", "3", "1", "20gr", "1/4 buah", "1/4 buah", "1 bungkus"],
         "thumbnail": "https://res.cloudinary.com/anongtf/image/upload/v1622858497/gado_gado_byd401.jpg",
+        "kalori": "400kkal",
         "prosedur": [
             "tomat dan kentang dipotong sesuai selera",
             "semua bahan kecuali bumbu kacang dan tomat direbus hingga matang",
@@ -63,6 +67,7 @@
         "bahan": ["telur", "roti tawar", "selada", "tomat", "keju"],
         "kuantitas_bahan": ["1", "2", "1", "1/2", "1"],
         "thumbnail": "https://res.cloudinary.com/anongtf/image/upload/v1622858496/sanwih_telur_jr6pvp.jpg",
+        "kalori": "340kkal",
         "prosedur": [
             "panggang roti tawar di atas Teflon. Kalu mau dimakan tanpa dipanggang juga boleh",
             "Ceplok telur hingga matang atau setengah matang",
