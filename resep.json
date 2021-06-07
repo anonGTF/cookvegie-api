@@ -50,7 +50,7 @@
         "id": 4,
         "judul": "gado-gado",
         "bahan": ["telur", "wortel", "kentang", "tomat", "kacang panjang", "kecambah", "mentimun", "kubis", "bumbu kacang"],
-        "kuantitas_bahan": ["1", "1", "1", "1", "3", "1", "20gr", "1/4 buah", "1/4 buah", "1 bungkus"],
+        "kuantitas_bahan": ["1", "1", "1", "3", "1", "20gr", "1/4 buah", "1/4 buah", "1 bungkus"],
         "thumbnail": "https://res.cloudinary.com/anongtf/image/upload/v1622858497/gado_gado_byd401.jpg",
         "kalori": "400kkal",
         "prosedur": [
